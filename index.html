@@ -1,1 +1,700 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/favIcon.png"/><meta name="theme-color" content="#000000"/><meta name="description" content="HR System"/><link rel="apple-touch-icon" href="/logo192.png"/><meta name="description" content="Web site created using create-react-app"/><title>Silver Screen</title><link href="/static/css/2.b5729841.chunk.css" rel="stylesheet"><link href="/static/css/main.16502331.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,o,c=t[0],i=t[1],f=t[2],l=0,d=[];l<c.length;l++)o=c[l],Object.prototype.hasOwnProperty.call(a,o)&&a[o]&&d.push(a[o][0]),a[o]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(s&&s(t);d.length;)d.shift()();return u.push.apply(u,f||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,o=1;o<r.length;o++){var i=r[o];0!==a[i]&&(n=!1)}n&&(u.splice(t--,1),e=c(c.s=r[0]))}return e}var n={},o={1:0},a={1:0},u=[];function c(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,c),r.l=!0,r.exports}c.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{3:1,5:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{3:"c7d9b0e3",4:"31d6cfe0",5:"fd517eb4",6:"31d6cfe0",7:"31d6cfe0",8:"31d6cfe0",9:"31d6cfe0",10:"31d6cfe0",11:"31d6cfe0",12:"31d6cfe0",13:"31d6cfe0"}[e]+".chunk.css",a=c.p+n,u=document.getElementsByTagName("link"),i=0;i<u.length;i++){var f=(s=u[i]).getAttribute("data-href")||s.getAttribute("href");if("stylesheet"===s.rel&&(f===n||f===a))return t()}var l=document.getElementsByTagName("style");for(i=0;i<l.length;i++){var s;if((f=(s=l[i]).getAttribute("data-href"))===n||f===a)return t()}var d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.onload=t,d.onerror=function(t){var n=t&&t.target&&t.target.src||a,u=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");u.code="CSS_CHUNK_LOAD_FAILED",u.request=n,delete o[e],d.parentNode.removeChild(d),r(u)},d.href=a,document.getElementsByTagName("head")[0].appendChild(d)})).then((function(){o[e]=0})));var r=a[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=a[e]=[t,n]}));t.push(r[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,c.nc&&i.setAttribute("nonce",c.nc),i.src=function(e){return c.p+"static/js/"+({}[e]||e)+"."+{3:"6a18a41a",4:"458755b9",5:"50742833",6:"712ac773",7:"8d008ef6",8:"b474b447",9:"0b6061b8",10:"1da06f36",11:"8e99f3ff",12:"53785794",13:"46575b19"}[e]+".chunk.js"}(e);var f=new Error;u=function(t){i.onerror=i.onload=null,clearTimeout(l);var r=a[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;f.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",f.name="ChunkLoadError",f.type=n,f.request=o,r[1](f)}a[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(t)},c.m=e,c.c=n,c.d=function(e,t,r){c.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},c.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,t){if(1&t&&(e=c(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(c.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)c.d(r,n,function(t){return e[t]}.bind(null,n));return r},c.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return c.d(t,"a",t),t},c.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},c.p="/",c.oe=function(e){throw console.error(e),e};var i=this["webpackJsonpsilver-screen-ui"]=this["webpackJsonpsilver-screen-ui"]||[],f=i.push.bind(i);i.push=t,i=i.slice();for(var l=0;l<i.length;l++)t(i[l]);var s=f;r()}([])</script><script src="/static/js/2.db32c371.chunk.js"></script><script src="/static/js/main.125484b3.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Template Mo" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <title>IBFMC</title>
+    <!--
+
+ART FACTORY
+
+https://templatemo.com/tm-537-art-factory
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css" />
+    <style>
+ 
+
+      .header-Photo-Grid {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      .row-Photo-Grid {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column-Photo-Grid {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column-Photo-Grid img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column-Photo-Grid {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column-Photo-Grid {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+
+
+      </style>
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <img
+              src="assets/images/logo.png"
+              class="logo-e"
+          "
+              alt="First Vector Graphic"
+            />
+              <a href="#" class="logo">IBFMC</a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                <li class="submenu">
+                  <a href="javascript:;">OUR SERVICE</a>
+                  <ul>
+                    <li>
+                      <a href="assets/ManagementConsultancy.html"
+                        >Facility Soft Service Management Consulting</a
+                      >
+                    </li>
+                    <li>
+                      <a href="assets/SoftservicefacilityProjectManagement.html"
+                        >Soft service facility Project Management</a
+                      >
+                    </li>
+                    <li>
+                      <a href="assets/CostReductionandControl.html">Cost Reduction and Control</a>
+                    </li>
+                    <li>
+                      <a href="assets/FacilityAuditsandImprovements.html"
+                        >Facility Audits and Improvements</a
+                      >
+                    </li>
+                    <li>
+                      <a href="assets/StrategicAuditsTacticalAuditsOperationalAudits.html"
+                        >Strategic Audits, Tactical Audits & Operational Audits</a
+                      >
+                    </li>
+                    <li><a href="assets/HygienicPremises.html">Hygienic Premises</a></li>
+                    <li><a href="assets/TrainingandWorkshops.html">Training and Workshops</a></li>
+                    <li><a href="assets/InformationTechnology.html">Information Technology</a></li>
+                  </ul>
+                </li>
+                <li class="scroll-to-section"><a href="#about">Objective and Vision</a></li>
+                <li class="scroll-to-section"><a href="#services">Services</a></li>
+                <li class="scroll-to-section"><a href="#frequently-question">About Us</a></li>
+                <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+      <!-- ***** Header Text Start ***** -->
+      <div class="header-text">
+        <div class="container">
+          <div class="row">
+            <div
+              class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
+            >
+              <h1>We specialize in Facility Management soft Service Consultancy</h1>
+              <p>
+                Achieving facilities operational excellence through optimizing infrastructure,
+                Facility services, people, and technology
+              </p>
+              <a href="#about" class="main-button-slider">Find Out More</a>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+              data-scroll-reveal="enter right move 30px over 0.6s after 0.4s"
+            >
+              <img
+                src="assets/images/slider-icon.png"
+                class="rounded img-fluid d-block mx-auto"
+                alt="First Vector Graphic"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-7 col-md-12 col-sm-12"
+            data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
+          >
+            <img
+              src="assets/images/left-image.png"
+              class="rounded img-fluid d-block mx-auto"
+              alt="App"
+            />
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span></span>
+                </div>
+                <div class="timeline-info">
+                  <h3><span>Creating Value</span><small></small></h3>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span></span>
+                </div>
+                <div class="timeline-info">
+                  <h3><span>Optimizing Performance</span><small></small></h3>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span></span>
+                </div>
+                <div class="timeline-info">
+                  <h3><span>Minimizing Risk</span></h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+            <div class="left-heading">
+              <h5>Our Objective and Vision</h5>
+            </div>
+            <div class="left-text">
+              <p>
+                Our objective is to support your business in achieving your strategy, mission and
+                goals. Our solutions are delivered through focusing on our guiding principles and
+                underpinned on our intimate knowledge of the profession. <br /><br />
+                We are a leading-edge consultancy, management and training organization that has
+                undertaken significant research, and developed unique FM solutions. Benefits – we
+                deliver a range of value-added FM services that will be of significant benefit to
+                your organization targeting cost savings and performance enhancing outcomes. We will
+                provide demonstrable results both the public and corporate Real Estate and all other
+                facilities sectors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hr"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <!-- <section class="section" id="about2">
+        <div class="container">
+            <div class="row">
+                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h5>Curabitur aliquam eget tellus id porta</h5>
+                    </div>
+                    <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.</p>
+                    <ul>
+                        <li>
+                            <img src="assets/images/about-icon-01.png" alt="">
+                            <div class="text">
+                                <h6>Nulla ultricies risus quis risus</h6>
+                                <p>You can use this website template for commercial or non-commercial purposes.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/about-icon-02.png" alt="">
+                            <div class="text">
+                                <h6>Donec consequat commodo purus</h6>
+                                <p>You have no right to re-distribute this template as a downloadable ZIP file on any website.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/about-icon-03.png" alt="">
+                            <div class="text">
+                                <h6>Sed placerat sollicitudin mauris</h6>
+                                <p>If you have any question or comment, please <a rel="nofollow" href="https://templatemo.com/contact">contact</a> us on TemplateMo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Small Start ***** -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/icons8-management-160.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Soft service facility Project Management</h5>
+              <p>
+                Soft service Consultancy & Project Management team Provides support for facility’s
+                owners and occupiers in all technical matters in the facility sector concerning the
+                development in
+              </p>
+              <a href="assets/SoftservicefacilityProjectManagement.html" class="main-button"
+                >Read More</a
+              >
+            </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/Consulting.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Facility Soft Service Management Consulting</h5>
+              <p>
+                Property-based facility soft service management consulting includes planning and
+                facilities support. Our services include the development of operating concepts
+              </p>
+              <a href="assets/ManagementConsultancy.html" class="main-button">Discover More</a>
+            </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/CostReduction.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Cost Reduction and Control</h5>
+              <p>
+                Cost reduction and control within a company is often the product of decisions and
+                actions deployed in an unstructured and uninformed manner.
+              </p>
+              <a href="assets/CostReductionandControl.html" class="main-button">More Detail</a>
+            </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/audit.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Facility Audits and Improvements</h5>
+              <p>
+                We will support your business on its journey to reducing costs, improving
+                performance and mitigate risks through our suite of bespoke audit tools and reviews.
+              </p>
+              <a href="assets/FacilityAuditsandImprovements.html" class="main-button">Read More</a>
+            </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/StrategicAudits.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Strategic Audits, Tactical Audits & Operational Audits</h5>
+              <p>
+                Our strategic and tactical audits services are essentially ‘accelerators of change’
+                through knowledge and the presentation of the right data enabling informed decisions
+                to be made.
+              </p>
+              <a
+                href="assets/StrategicAuditsTacticalAuditsOperationalAudits.html"
+                class="main-button"
+                >Discover</a
+              >
+            </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/HygienicPremises.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Hygienic Premises</h5>
+              <p>The IBFMC Hygiene audit ensures that your premises</p>
+              <div><a href="assets/HygienicPremises.html" class="main-button">Detail</a></div>
+            </div>                               <div class="item service-item">
+              <div class="icon">
+             <i><img src="assets/images/icons8-workstation-100.png" alt=""></i>
+              </div>
+              <h5 class="service-title">Information Technology</h5>
+              <p>specialized in providing Core Infrastructure and IT services and Performance Management solutions</p>
+              <a href="assets/InformationTechnology.html" class="main-button">Read More</a>
+          </div>
+            <div class="item service-item">
+              <div class="icon">
+                <i><img src="assets/images/service-icon-01.png" alt="" /></i>
+              </div>
+              <h5 class="service-title">Training and Workshops</h5>
+              <p>Based on facility needs and our facility services and management experiences,</p>
+              <a href="assets/TrainingandWorkshops.html" class="main-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+    
+    <!-- ***** Frequently Question Start ***** -->
+    <section class="section" id="frequently-question">
+      <div class="container">
+        <!-- ***** Section Title Start ***** -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading">
+              <h2 style="font-weight: 900; color: #0a9cb2">IBFMC About Us</h2>
+            </div>
+          </div>
+          <div class="offset-lg-3 col-lg-6">
+            <div class="section-heading">
+              <p>specialize in Facility Management soft Service Consultancy</p>
+            </div>
+          </div>
+        </div>
+        <!-- ***** Section Title End ***** -->
+
+        <div class="row">
+          <div class="left-text col-lg-8 col-md-6 col-sm-12">
+            <h5>Why IBFM</h5>
+            <div class="accordion-text">
+              <p>
+                As a Consultation company, we are at hand to support our clients as partners in all
+                matters relating to facility soft service property. We offer the entire spectrum of
+                consultancy services for occupiers of facility support service properties and create
+                new solutions for their properties We analyze the real estate holdings of our
+                clients through our requirement and feasibility studies and assist them in making
+                the right decisions on their properties facilities support service. This service is
+                an essential component of our scope of services since the successful management of
+                any kind of facilities contributes significantly to its value growth. IBFMC is the
+                leading outsourcing service providers for integrated facilities management with
+                special expertise in soft service.
+              </p>
+              <p>
+                Experienced teams can take on total management of our clients’ buildings as part of
+                an outsourcing partnership, or deliver specific technical services. The spectrum
+                ranges from integrated comprehensive solutions (facilities management, cleaning,
+                catering, landscaping, pest control, and waste management). For Malls, hospitals,
+                airports and towers ....., of facilities, to specialist services The essential tasks
+                involved in effective facility management are part of the daily work of our team of
+                specialists, including the creation of operating concepts, planning and calling for
+                tenders for operational services, and the selection and implementation of systems
+                for Computer Aided Facility Management (KPI).
+              </p>
+              <p>
+                One of IBFMC major strengths is the linking of facility management services with
+                effective organizational and management concepts. Nowadays companies are confronted
+                by the challenge of a dynamic market environment that requires them to make quick
+                adjustments to their properties to suit their needs, Whatever model our clients
+                choose, we develop holistic solutions, tailored to their particular needs. We manage
+                properties and assets in a safe, compliant, energy-efficient and cost-efficient way,
+                while providing first-class service.
+              </p>
+              <span>Email: <a href="#">Ibfmc@outlook.com</a><br /></span>
+              <a href="#contact-us" class="main-button" href="Ibfmc@outlook.com">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img
+              src="assets/images/dd346a978116f017d7f28a88349c9fc3.jpg"
+              alt=""
+              style="
+                width: 100%;
+                height: 82%;
+                opacity: 91%;
+                border-bottom-left-radius: 166px;
+                border-bottom-right-radius: 166px;
+                border-top-right-radius: 27px;
+                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 81%);
+                border-top-left-radius: 27px;
+              "
+            />
+          </div>
+          <!-- <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordions is-first-expanded">
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>First Common Question</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
+                                    <br><br>
+                                    Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Second Question Answer</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
+                                    <br><br>
+                                    Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Third Answer for you</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim. 
+                                    <br><br>
+                                    Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Fourth Question Asked</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
+                                    <br><br>
+                                    Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Fifth Ever Question</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.
+                                    <br><br>
+                                    Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu. </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Sixth Sense Question</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div> -->
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- ***** Frequently Question End ***** -->
+
+    <!-- ***** Contact Us Start ***** -->
+
+    <!-- ***** Contact Us End ***** -->
+
+    <!-- ***** Footer Start ***** -->
+    <footer class="footer-distributed" id="contact-us">
+
+			<div class="footer-left">
+
+        <img
+        src="assets/images/logo.png"
+        style="
+        width: 76px;
+        margin-left: 20px;
+    "
+        alt="First Vector Graphic"
+      />
+
+				<p class="footer-links" class="scroll-to-section">
+					
+					<a href="#welcome" class="active">Home</a>
+	 
+          <a href="#about" class="active">Objective and Vision</a>
+
+          <a href="#services" class="active">Services</a>
+
+          <a href="#frequently-question"" class="active">About Us</a>
+ 
+				</p>
+
+
+
+      
+
+
+
+				<p class="footer-company-name">Copyright &copy; 2021 IBFMC Company</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Amman Jordan</span> Saudi Arabia</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+962 7</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a  style="
+            font-weight: bold;
+            color: white;
+        "href="">Ibfmc@outlook.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+          We specialize in Facility Management soft Service Consultancy.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+
+			</div>
+
+		</footer>
+
+    <!-- <footer id="contact-us">
+      >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <p class="copyright">Copyright &copy; 2021 IBFMC Company .</p>
+          </div>
+
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-rss"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
