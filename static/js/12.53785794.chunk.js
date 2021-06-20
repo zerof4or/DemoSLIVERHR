@@ -1,0 +1,2 @@
+(this["webpackJsonpsilver-screen-ui"]=this["webpackJsonpsilver-screen-ui"]||[]).push([[12],{377:function(e,s,i){"use strict";i.r(s);i(1);var r=i(9),t=i(143),n=i(0);s.default=function(){return Object(n.jsx)(r.m,{routes:t.i})}}}]);
+//# sourceMappingURL=12.53785794.chunk.js.map
